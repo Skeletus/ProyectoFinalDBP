@@ -132,6 +132,28 @@
   }
 
   /* Submenu*/
+  .nav-menu-item2 {
+    line-height: 70px;
+  }
+  .nav-menu-item2 > li{
+	position: relative;
+	display: inline-block;
+}
+
+.nav-menu-item2 > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.nav-menu-item2 li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+
 
 .submenu{
 	position: absolute;
