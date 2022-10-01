@@ -103,6 +103,13 @@ body{
   transition: all 0.2s ease;
 }
 
+/* css para el boton*/
+#toggleDark {
+  font-size: 18px;
+  vertical-align: middle;
+  transition: background 0.2s ease;
+}
+
 .sidebar ul li a .icon{
   font-size: 18px;
   vertical-align: middle;
