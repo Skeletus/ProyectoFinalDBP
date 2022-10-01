@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
+    <!-- css para pagina principal-->
     <link rel="stylesheet" href="estaticos/estilo.css" />
+    <!-- css para boton dark mode-->
+    <link rel="stylesheet" href="estaticos/darkModeBtn/styleDarkMode.css" />
+    <!-- bootstrap  para dark mode-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- script, fuente de recursos de fontAwesome-->
     <script 
     src="https://kit.fontawesome.com/9cc3b5bfbe.js" 
     crossorigin="anonymous">
     </script>
+    <!-- script para pagina principal-->
     <script defer src="estaticos/script.js"></script>
+    <!-- script para boton dark mode-->
+    <script defer src="estaticos/darkModeBtn/scriptDarkMode.js"></script>
 </head>
 <title>Barra de Navegacion</title>
   <body>
@@ -25,7 +34,7 @@
         <ul class="nav-menu">
           <!-- blog -->
           <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Blog</a>
+            <a href="menu1.html" class="nav-menu-link nav-link">Blog</a>
           </li>
           <!-- videos -->
           <li class="nav-menu-item">
@@ -41,6 +50,10 @@
               <li><a href="#" class="nav-menu-link nav-link">Servicio #2</a></li>
               <li><a href="#" class="nav-menu-link nav-link">Servicio #3</a></li>
             </ul>
+          </li>
+          <!-- boton modo oscuro -->
+          <li class="nav-menu-item">
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
           </li>
           <!-- sobre mi -->
           <li class="nav-menu-item">
@@ -58,4 +71,5 @@
     <main>
       <h1>Responsive Navbar</h1>
     </main>
+  </body>
 </html>
