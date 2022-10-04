@@ -1,7 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red; 
+  /* lo de abajo sirve para ver el diagrama */
+  /*border: 1px solid red;*/ 
 }
 
 body {
@@ -60,7 +61,7 @@ body {
 {
   /*background-color: brown;*/
   position: static; z-index:1;
-  margin-right: 350px;
+  margin-right: 150px;
 }
 .card
 {
@@ -78,6 +79,38 @@ body {
   /*background-color: limegreen;*/
   position: static;
   right: -80px;
+}
+.containerCheckBox
+{
+  height: auto;
+  margin-top: 0px;
+  padding-top: 2px;
+}
+.custom-control-input
+{
+  position: static;
+}
+.checkBoxCustomizado
+{
+  margin-top: 15px;
+  width: 1.3em;
+  height: 1.3em;
+}
+.checkbox-round:checked {
+  background-color: rgb(18, 18, 202);
+}
+.msgRecordarme
+{
+  padding-bottom: 15px;
+  line-height: 20px;
+  margin-top: -29px;
+  margin-left: 30px;
+  margin-right: 180px;
+  height: 20px; 
+}
+.form-group-mt-4-mb-4
+{
+  position: static; z-index:1;
 }
 .pt-5
 {
@@ -174,7 +207,8 @@ body {
   border: 1px;
   border-color: red;
   /*border-color: #312d35;*/
-  background-color: rgb(181, 190, 190);
+  background-color: aliceblue;
+  /*background-color: rgb(181, 190, 190);*/
   height: 760px;
   width: 795px;
   margin-top: 50px;
@@ -185,21 +219,45 @@ body {
   padding-bottom: 60px;
 }
 
-.littleMesage
+.text-center
 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 24px;
-  padding-left: 300px;
+  color: black;
+  margin-left: 300px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 120px;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 
+.littleMesage
+{
+  color: black;
+  /*color: #fff;*/
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 300px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.containerIMG
+{
+  height: 180px;
+  margin-left: 5px;
+  margin-right: 430px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: -180px;
+}
 .platformNameMsg
 {
-  color: #fff;
+  color: black;
+  /*color: #fff;*/
   font-weight: bold;
   font-size: 38px;
-  padding-left: 300px;
+  margin-left: 300px;
+  padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
