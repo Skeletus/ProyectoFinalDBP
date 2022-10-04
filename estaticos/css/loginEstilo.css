@@ -1,5 +1,6 @@
 body{
-    background: #06a0ae !important;
+    background-image: url("estaticos/imagenes/logoDBP.jpg");
+    /*background: #06a0ae !important;*/
     font-family: 'Muli', sans-serif;
     
   }
