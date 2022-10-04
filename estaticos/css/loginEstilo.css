@@ -1,5 +1,6 @@
 body{
-    background-image: url("estaticos/imagenes/logoDBP.jpg");
+  background-image:url("../imagenes/backGroundIMG.jpg");
+    /*background="/home/sumit/Desktop/images/image.jpg";*/
     /*background: #06a0ae !important;*/
     font-family: 'Muli', sans-serif;
     
