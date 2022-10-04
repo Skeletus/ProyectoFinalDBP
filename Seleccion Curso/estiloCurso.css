@@ -144,10 +144,22 @@ body{
 {
     /*POSICION*/
     position: absolute;
-    top: 20%;
+    top: 14%;
     left: 60%;
 
-    /**/
+    /*COLOR Y TAMAÑO*/
     font-size: 45px;
     color: #007dc3;   
 }
+
+.botonComprar
+{
+        /*POSICION*/
+        position: absolute;
+        top: 80%;
+        left: 65%;
+
+        /**/
+    background-color: #0e94d4;
+}
+
