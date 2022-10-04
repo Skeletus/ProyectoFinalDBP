@@ -161,5 +161,23 @@ body{
 
         /**/
     background-color: #0e94d4;
+    border-radius: 15px 15px;
 }
 
+.btn{
+    background: #0e94d4;
+    border: #007dc3;
+    border-radius: 15px 15px;
+    border: #0e94d4;
+    display: inline-block;
+    font-size: 24px;
+    
+
+  }
+
+.btn:hover {
+    background: #007dc3;
+    border: #007dc3;
+    color: white;
+    border-radius: 15px 15px;
+  }
