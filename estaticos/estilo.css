@@ -251,16 +251,40 @@ img.redimension {
   padding-left: 5px;
 }
 .lineaFooter {
-  border-top: 5px solid white;
+  margin-top: 10px;
+  border-top: 10px solid white;
   height: 10px;
-  width: 100%  ;
+  width: 100%;
 }
-.fa-brands
+.containerIconsRedes
 {
-  margin-left: 1260px;
-  margin-right: 20px; 
-  margin-top: 77px;
-  margin-bottom: 2px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 1060px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.fa-square-facebook
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.fa-twitter
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.fa-google
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.fa-instagram
+{
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /* MOBILE */
