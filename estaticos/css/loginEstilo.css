@@ -1,5 +1,5 @@
 body{
-    background: #E8D426 !important;
+    background: #06a0ae !important;
     font-family: 'Muli', sans-serif;
     
   }
@@ -11,9 +11,13 @@ body{
   a{
     color: #333;
   }
-  a:hover{
-    color: #E8D426;
+  p:hover{
+    color: #0f16d3;
     text-decoration: none;
+  }
+  a:hover{
+    color: #0f16d3;
+    /*text-decoration: none;*/
   }
   .form-control:focus {
   
@@ -26,10 +30,15 @@ body{
   }
   
   .btn{
-    background: #E8D426;
-    border: #E8D426;
+    background: #2f29a2;
+    border: none;
+    border-radius: 3px;
+    border: #2f29a2;
+    display: inline-block;
+    font-size: 24px;
   }
+
   .btn:hover {
-    background: #E8D426;
-    border: #E8D426;
+    background: #421399;
+    border: #421399;
   }

@@ -3,6 +3,7 @@ i{
     cursor: pointer;
     position: relative;
     transform: translate(-50%, -50%);
+    line-height: 80px;
 }
 
 /* 

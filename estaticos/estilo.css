@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid red; 
 }
 
 body {
@@ -9,9 +10,11 @@ body {
 }
 
 .header {
-  background-color: #0769e9;
-  height: 80px;
-  position: fixed;
+  background-color: #dbe3ed;
+  height: 98px;
+  position:fixed; 
+  /* sirve para q el header se quede ahi arriba y no se pierda
+  al momento de bajar*/ 
   width: 100%;
   top: 0;
   left: 0;
@@ -22,30 +25,79 @@ body {
   justify-content: space-between;
 
   max-width: 992px;
-  margin: 0 auto;
+  /*margin: 0 10px;*/
 }
 
+/* sirve para no mostrar lo subyrado en link y ponerlo de color blanco*/
 .nav-link {
-  color: white;
+  color: rgb(19, 17, 17);
   text-decoration: none;
 }
 
 .logo {
   font-size: 30px;
   font-weight: bold;
-  padding: 0 40px;
+  padding-left: 5px;
+  padding-right:05px;
   line-height: 80px;
+}
+
+.containerBuscador{
+  /*display: flex;*/
+  padding-left: 20px;
+  justify-content: space-between;
+  padding-top: 10px;
+  line-height: 80px;
+  width: max-content;
+  position: static;
+}
+.container
+{
+  /*background-color: #4a0c89;*/
+  position:static; z-index:1;
+}
+.row
+{
+  /*background-color: brown;*/
+  position: static; z-index:1;
+  margin-right: 350px;
+}
+.card
+{
+  /*background-color:rgb(111, 189, 107);*/
+  position: static; z-index:1;
+}
+.card-body
+{
+  /*background-color:darkkhaki;*/
+  position: static; z-index:1;
+  width: 390px;
+}
+.col-md-5
+{
+  /*background-color: limegreen;*/
+  position: static;
+  right: -80px;
+}
+.pt-5
+{
+  /*position: static; z-index:1;*/
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-top: -90px;
+  padding-top: 65px;
+  padding-bottom: 25px;
 }
 
 .nav-menu {
   display: flex;
-  margin-right: 40px;
+  /*margin-left: 46px;*/
+  margin-right: -345px;
   list-style: none;
 }
 
 .nav-menu-item {
   font-size: 18px;
-  margin: 0 10px;
   line-height: 80px;
   text-transform: uppercase;
   width: max-content;
@@ -59,6 +111,7 @@ body {
   width: max-content;
 }
 
+
 .nav-menu-link {
   padding: 8px 12px;
   border-radius: 3px;
@@ -66,8 +119,9 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #034574;
+  background-color: #312d35;
   transition: 0.5s;
+  border-radius: 3px;
 }
 
 /* Submenu*/
@@ -105,6 +159,108 @@ body {
   cursor: pointer;
 
   display: none;
+}
+
+.linea {
+  border-top: 5px solid #4a0c89;
+  height: 10px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  width: 87%  ;
+}
+
+.containerMSGBienvenida
+{
+  border: 1px;
+  border-color: red;
+  /*border-color: #312d35;*/
+  background-color: rgb(181, 190, 190);
+  height: 760px;
+  width: 795px;
+  margin-top: 50px;
+  padding-top: 20px;
+  margin-left: 250px;
+  padding-top: 50px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+.littleMesage
+{
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 300px;
+  padding-bottom: 5px;
+}
+
+.platformNameMsg
+{
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  padding-left: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img.redimension {
+  width:200px;
+  height:40px;
+}
+
+.contanierFooter
+{
+  color:rgb(255, 255, 255);
+  background-color: #1e0166;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 0px;
+  height: 415px;
+  width: 1345px;
+  margin-left: -18px;
+}
+
+.contanierTxtFooter1
+{
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 920px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.contanierTxtFooter2
+{
+  height: 250px;
+  margin-top: -250px;
+  margin-bottom: 35px;
+  margin-left: 470px;
+  margin-right: 500px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.contanierTxtFooter3
+{
+  height: 250px;
+  margin-top: -285px;
+  margin-bottom: 35px;
+  margin-left: 920px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.lineaFooter {
+  border-top: 5px solid white;
+  height: 10px;
+  width: 100%  ;
+}
+.fa-brands
+{
+  margin-left: 1260px;
+  margin-right: 20px; 
+  margin-top: 77px;
+  margin-bottom: 2px;
 }
 
 /* MOBILE */
