@@ -46,12 +46,14 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .top_navbar .hamburger{
   font-size: 25px;
   cursor: pointer;
   color: #005faf;
+  
 }
 
 .top_navbar .hamburger:hover{
@@ -135,9 +137,9 @@ body{
 .imgcurso {
     height:200px
    }
-   img {
-    height: 600px;
-    width: 800px;
+.imgimagen {
+    max-height: 600px;
+    max-width: 700px;
    }
 
 .infcurso
@@ -145,11 +147,58 @@ body{
     /*POSICION*/
     position: absolute;
     top: 14%;
-    left: 60%;
+    left: 55%;
 
     /*COLOR Y TAMAÑO*/
     font-size: 45px;
     color: #007dc3;   
+}
+
+.imgpunt
+{
+       /*POSICION*/
+       position: absolute;
+       top: 25%;
+       left: 55%; 
+}
+.imgpuntuacion
+{
+    max-width: 45%;
+    max-height: 10%;
+}
+
+.detcurso
+{
+    /*POSICION*/
+    position: absolute;
+    top: 35%;
+    left: 55%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 30px;
+    color: black; 
+}
+.texto
+{
+    /*POSICION*/
+    position: absolute;
+    top: 45%;
+    left: 55%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 20px;
+    color: black; 
+}
+.precio
+{
+    /*POSICION*/
+    position: absolute;
+    top: 65%;
+    left: 55%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 25px;
+    color: black; 
 }
 
 .botonComprar
