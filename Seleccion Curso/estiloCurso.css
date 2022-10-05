@@ -230,3 +230,88 @@ body{
     color: white;
     border-radius: 15px 15px;
   }
+
+  .simcursos
+{
+    /*POSICION*/
+    position: absolute;
+    top: 110%;
+    left: 40%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 35px;
+    color: #007dc3;   
+}
+
+.simcurso1
+{
+       /*POSICION*/
+       position: absolute;
+       top: 130%;
+       left: 10%; 
+}
+.curso1
+{
+    max-width: 45%;
+    max-height: 10%;
+}
+.detcurso1
+{
+    /*POSICION*/
+    position: absolute;
+    top: 133%;
+    left: 26%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 15px;
+    color: black; 
+}
+
+
+.simcurso2
+{
+       /*POSICION*/
+       position: absolute;
+       top: 130%;
+       left: 40%; 
+}
+.curso2
+{
+    max-width: 45%;
+    max-height: 10%;
+}
+.detcurso2
+{
+    /*POSICION*/
+    position: absolute;
+    top: 133%;
+    left: 56%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 15px;
+    color: black; 
+}
+
+.simcurso3
+{
+       /*POSICION*/
+       position: absolute;
+       top: 130%;
+       left: 70%; 
+}
+.curso3
+{
+    max-width: 45%;
+    max-height: 10%;
+}
+.detcurso3
+{
+    /*POSICION*/
+    position: absolute;
+    top: 133%;
+    left: 86%;
+
+    /*COLOR Y TAMAÑO*/
+    font-size: 15px;
+    color: black; 
+}
