@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- importacion css anterior:  <link rel="stylesheet" href="/estaticos/styles.css">-->
+    <link rel="stylesheet" href="estaticos/styles.css">
+    <!-- libreria fontawesome angelo
+    <script src="https://kit.fontawesome.com/cee0d5f423.js" 
+    crossorigin="anonymous"></script>-->
+    <!-- importacion fontawesome-->
+    <!-- boostrap para boton dark mode-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- librerias para el calendario mejorado-->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <!-- script y css-->
+    <link rel="stylesheet"type="text/css" href="../Calendario/betterCalendario/style2betterCalendario.css"/>
+    <!--script para boton dark mode-->
+    <script defer src="../estaticos/darkModeBtn/scriptBTNDMMenu1.js"></script>
+    <!-- script para barras navegadoras-->
+    <script defer src="../Calendario/estaticos/scriptBarrasNavegadoras.js"></script>
+    <!-- css para barras navegadoras-->
+    <link rel="stylesheet" href="../Calendario/estaticos/estiloBarrasNavegadoras.css"/>
+    <script 
+    src="https://kit.fontawesome.com/9cc3b5bfbe.js" 
+    crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Calendario page</title>
+</head>
+<!-- parte de barra a desplegable a la derecha-->
+<!-- esto sirve para comprimir la barra derecha de la pagina web-->
+<div class="wrapper hover_collapse">
+    <!-- barra de navegacion-->
+  <div class="top_navbar">
+    <!-- parte izquierda superior-->
+    <!--<div class="logo">-->
+        <div class="logoTitle">
+            <i class="fa-solid fa-image fa-2x"></i>
+        </div>
+        <div class="titlPlatformName">
+            Nombre de la plataforma
+        </div>
+    <!--</div>-->
+    <div class="menu">
+      <!-- icono de menu de tres barras-->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!-- icono de perfil-->
+      <div class="profile_wrap">
+        <div class="profile">
+          <!-- parte para poner link del perfil-->
+          <i class="fa-solid fa-user fa-2x"></i>
+          <!-- mostrar nombre de usuario -->
+          <span class="name">Alex John</span>
+          <span class="icon">
+            <i class="fas fa-angle-down"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- barra desplegable a la derecha-->
+    <div class="sidebar">
+        <div class="sidebar_inner">
+            <ul>
+            <!-- parte de boton de dark mode-->
+                <li>
+                    <a href="#">
+                    <span class="icon">
+                      <i class="fa-solid fa-circle-dot fa-2x"></i>
+                    </span>
+                    <span class="text">Apariencia</span>
+                    </a>
+                </li>
+            <!-- parte de icono de home page-->
+                <li>
+                    <a href="#">
+                    <span class="icon"><i class="fa-solid fa-house fa-2x"></i></i></span>
+                    <span class="text">Home page</span>
+                    </a>
+                </li>
+            <!-- parte de icono de buscar curso page-->
+                <li>
+                    <a href="#">
+                    <span class="icon"><i class="fa-solid fa-magnifying-glass fa-2x"></i></i></span>
+                    <span class="text">Buscar curso</span>
+                    </a>
+                </li>
+            <!-- parte de icono de calendario page-->
+                <li>
+                    <a href="#">
+                    <span class="icon"><i class="fa-regular fa-calendar-days fa-2x"></i></span>
+                    <span class="text">Calendario</span>
+                    </a>
+                </li>
+            <!-- parte de icono de settings account page-->
+                <li>
+                    <a href="#">
+                    <span class="icon"><i class="fa-solid fa-gear fa-2x"></i></span>
+                    <span class="text">Configuracion</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- barra de navegacion superior-
+<h1>
+    <i class="fa-solid fa-image fa-2x"></i>
+        Nombre de la Plataforma 
+    <i class="fa-solid fa-grip-lines-vertical fa-2x"></i>
+    <i class="fa-solid fa-bars fa-2x"></i>
+</h1>
+<h2 class="">
+    <i class="fa-solid fa-user fa-2x"></i>
+        NOMBRE DEL USUARIO
+    <i class="fa-solid fa-arrow-down"></i>
+</h2>-->
+
+<body>
+    <!-- barra derecha de menu 
+    <ul class="fa-ul">
+         circulo de dark mode 
+        <li><i class="fa-solid fa-circle-dot fa-3x"></i></li>  
+         icono de home page 
+        <li><i class="fa-solid fa-house fa-3x"></i></li> 
+         icono de buscar curso page 
+        <li><i class="fa-solid fa-magnifying-glass fa-3x"></i> </li>
+         icono de calendar page 
+        <li><i class="fa-regular fa-calendar-days fa-3x"></i> </li>
+         icono de settings account page 
+        <li> <i class="fa-solid fa-gear fa-3x"></i></li>
+    </ul>-->
+    <!-- parte del calendario-->   
+   <div class="containerV2">
+        <!-- calendario mejroado-->
+        <div class="containerCaBetter">
+            <div class="calendar">
+              <div class="front">
+                <div class="current-date">
+                  <h1>Friday 15th</h1>
+                  <h1>January 2016</h1>	
+                </div>
+      
+                <div class="current-month">
+                  <ul class="week-days">
+                    <li>MON</li>
+                    <li>TUE</li>
+                    <li>WED</li>
+                    <li>THU</li>
+                    <li>FRI</li>
+                    <li>SAT</li>
+                    <li>SUN</li>
+                  </ul>
+      
+                  <div class="weeks">
+                    <div class="first">
+                      <span class="last-month">28</span>
+                      <span class="last-month">29</span>
+                      <span class="last-month">30</span>
+                      <span class="last-month">31</span>
+                      <span>01</span>
+                      <span>02</span>
+                      <span>03</span>
+                    </div>
+      
+                    <div class="second">
+                      <span>04</span>
+                      <span>05</span>
+                      <span class="event">06</span>
+                      <span>07</span>
+                      <span>08</span>
+                      <span>09</span>
+                      <span>10</span>
+                    </div>
+      
+                    <div class="third">
+                      <span>11</span>
+                      <span>12</span>
+                      <span>13</span>
+                      <span>14</span>
+                      <span class="active">15</span>
+                      <span>16</span>
+                      <span>17</span>
+                    </div>
+      
+                    <div class="fourth">
+                      <span>18</span>
+                      <span>19</span>
+                      <span>20</span>
+                      <span>21</span>
+                      <span>22</span>
+                      <span>23</span>
+                      <span>24</span>
+                    </div>
+      
+                    <div class="fifth">
+                      <span>25</span>
+                      <span>26</span>
+                      <span>27</span>
+                      <span>28</span>
+                      <span>29</span>
+                      <span>30</span>
+                      <span>31</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="back">
+                <input placeholder="What's the event?">
+                <div class="info">
+                  <div class="date">
+                    <p class="info-date">
+                    Date: <span>Jan 15th, 2016</span>
+                    </p>
+                    <p class="info-time">
+                      Time: <span>6:35 PM</span>
+                    </p>
+                  </div>
+                  <div class="address">
+                    <p>
+                      Address: <span>129 W 81st St, New York, NY</span>
+                    </p>
+                  </div>
+                  <div class="observations">
+                    <p>
+                      Observations: <span>Be there 15 minutes earlier</span>
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="actions">
+                  <button class="save">
+                    Save <i class="ion-checkmark"></i>
+                  </button>
+                  <button class="dismiss">
+                    Dismiss <i class="ion-android-close"></i>
+                  </button>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        <!--
+        <div class="calendar">
+             mostrador de selector de mes
+            <div class="mes">
+                <i class="fas fa-angle-left prev"></i>
+                <div class="date">
+                    <p> October, 2022</p>
+                </div>
+                <i class="fas fa-angle-right next"></i>
+            </div>
+             columnas de dias de la semana-
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="days">
+                <div class="prev-date">26</div>
+                <div class="prev-date">27</div>
+                <div class="prev-date">28</div>
+                <div class="prev-date">29</div>
+                <div class="prev-date">30</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+                <div>15</div>
+                <div>16</div>
+                <div>17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20</div>
+                <div>21</div>
+                <div>22</div>
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <div>26</div>
+                <div>27</div>
+                <div>28</div>
+                <div>29</div>
+                <div>30</div>
+                <div>31</div>
+                <div class="next-date">1</div>
+                <div class="next-date">2</div>
+                <div class="next-date">3</div>
+                <div class="next-date">4</div>
+                <div class="next-date">5</div>
+                <div class="next-date">6</div>
+            </div>
+        </div>-->
+   </div>
+</body>
+</html>
