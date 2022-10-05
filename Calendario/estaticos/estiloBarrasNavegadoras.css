@@ -34,6 +34,47 @@ body{
   letter-spacing: 2px;
   text-transform: uppercase;
   border-right: 1px solid #f5f5f5;
+  margin-bottom: 00px;
+}
+
+.fa-user
+{
+  color: #007dc3;
+}
+
+.titlPlatformName
+{  
+    margin-top: 10px;
+    margin-right: -90px;
+    margin-left: -80px;
+     /*
+    margin-left: -120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 870px;
+    margin-bottom: 30px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    /*padding: 0 25px;*/
+    font-size: 20px;
+    font-weight: 600;
+    color: #007dc3;
+    /*letter-spacing: 2px;*/
+    text-transform: uppercase;
+    border-right: 1px solid #f5f5f5;
+}
+.logoTitle
+{
+    width: 250px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 25px;
+    color: #007dc3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-right: 1px solid #f5f5f5;
+    margin-bottom: 00px;
 }
 
 .top_navbar .logo span{
