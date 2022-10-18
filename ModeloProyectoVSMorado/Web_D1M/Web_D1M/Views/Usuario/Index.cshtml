@@ -1,4 +1,5 @@
-﻿@*
+﻿@model IEnumerable<Web_D1M.Models.Usuario>
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 <!DOCTYPE html>
@@ -18,9 +19,9 @@
   <!-- fuentes para font's de google-->
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Muli'>
   <!-- importacion de csss de carpeta estaticos-->
-  <link rel="stylesheet" href="estaticos/css/loginEstilo.css">
-  <link rel="stylesheet" href="estaticos/estilo.css">
-  <link rel="stylesheet" href="estaticos/darkModeBtn/styleDarkMode.css" />
+  <link rel="stylesheet" href="~/css/loginEstilo.css">
+  <link rel="stylesheet" href="~/css/estilo.css">
+  <link rel="stylesheet" href="~/css/styleDarkMode.css">
   <!-- script para botono modo oscuro-->
   <script defer src="estaticos/darkModeBtn/scriptDarkMode.js"></script>
   <!-- script para pagina principal-->
@@ -30,7 +31,7 @@
     <header class="header">
         <nav class="nav">
           <!-- boton para ver el logo -->
-          <img src="estaticos/imagenes/logoDBP.jpg" width="180" height="100">
+          <img src="~/imagenes/logoDBP.jpg" width="180" height="100">
           <a href="#" class="logo nav-link">Nombre de la plataforma</a>        
           <button class="nav-toggle" aria-label="Abrir menú">
             <i class="fa-solid fa-bars"></i>
@@ -60,7 +61,7 @@
     <div class="containerMSGBienvenida">
         <div class="pt-5">
             <div class="containerIMG">
-                <img src="estaticos/imagenes/logoDBP.jpg" width="280" height="180">
+                <img src="~/imagenes/logoDBP.jpg" width="280" height="180">
             </div>
                 <h1 class="text-center">
                     <!--<img src="https://internetctrl.com/medios/2020/06/internetctrl-logo.png" width="150" height="40" alt="InternetCtrl">-->
@@ -116,7 +117,7 @@
                             </form>
                             <p>
                                 <span class="text-muted">¿Aún no tiene una cuenta?</span>
-                                <a href="index.html">Crear una cuenta</a>
+                                <a asp-controller="Usuario" asp-action="RegistrarUserPage">Crear una cuenta</a>
                             </p>
                             <!--<p class="small-xl pt-3 text-center">
                                 <span class="text-muted">¿Aún no tiene una cuenta?</span>

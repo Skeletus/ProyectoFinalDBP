@@ -13,33 +13,20 @@ namespace Web_D1M.Controllers
             return View();
         }
         /*
-        public IActionResult CreateAlumno(Alumno objAlu)
+        public IActionResult CreateUser(Usuario objUser)
         {
+            
             if (ModelState.IsValid)
             {
-                context.Alumnos.Add(objAlu);
+                objUser.Usuarios.Add(objUser);
                 context.SaveChanges();
 
                 return RedirectToAction("Index");
             }
             else
             {
-                return View("Create");
+                return View("RegistrarUserPage");
             }
-        }
-        [Route("alumno/Delete/{Codigo}")]
-        */
-        /*
-        public IActionResult Delete(string Codigo)
-        {
-            LINQ * lambda
-            var objAlu = (from Talu in context.Alumnos
-                          where Talu.IdAlumno == Codigo
-                          select Talu).Single();
-            context.Alumnos.Remove(objAlu);
-            context.SaveChanges();
-
-            return RedirectToAction("Index");
             
         }
         */
