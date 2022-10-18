@@ -103,3 +103,38 @@ D:\python materiales\matenimientos modelos DPB\Web_D1M\Web_D1M\obj\Debug\net6.0\
 D:\python materiales\matenimientos modelos DPB\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.pdb
 D:\python materiales\matenimientos modelos DPB\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.genruntimeconfig.cache
 D:\python materiales\matenimientos modelos DPB\Web_D1M\Web_D1M\obj\Debug\net6.0\ref\Web_D1M.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\appsettings.Development.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\appsettings.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.staticwebassets.runtime.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.exe
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.deps.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.runtimeconfig.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.pdb
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Humanizer.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\MySqlConnector.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.AssemblyReference.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.GeneratedMSBuildEditorConfig.editorconfig
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.AssemblyInfoInputs.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.AssemblyInfo.cs
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.CoreCompileInputs.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.MvcApplicationPartsAssemblyInfo.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.RazorAssemblyInfo.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.RazorAssemblyInfo.cs
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\staticwebassets.build.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\staticwebassets.development.json
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\bundle\Web_D1M.styles.css
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\projectbundle\Web_D1M.bundle.scp.css
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.CopyComplete
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\refint\Web_D1M.dll
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.pdb
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.genruntimeconfig.cache
+D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\ref\Web_D1M.dll

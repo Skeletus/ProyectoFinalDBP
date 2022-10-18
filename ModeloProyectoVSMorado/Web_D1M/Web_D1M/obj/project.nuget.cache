@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RTXbRADZPop5ElOSktlsTfozcBMoI0ang+bZ2rTTnUWnJH1Oz9Ymq08+7ni0NJigPzQtmqhp2EYpsANaegX98A==",
+  "dgSpecHash": "+2tFK6b1gEOJx2GzeNfR9aS65dcdn2NOND9eHPlIWdva2gvcTP4yQW66up1be7nLXINQHghlVy93fS6XSuy7pg==",
   "success": true,
-  "projectFilePath": "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
+  "projectFilePath": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {}
+    "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {}
   },
   "projects": {
-    "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {
+    "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
+        "projectUniqueName": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
         "projectName": "Web_D1M",
-        "projectPath": "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
+        "projectPath": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
         "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-        "outputPath": "D:\\python materiales\\matenimientos modelos DPB\\Web_D1M\\Web_D1M\\obj\\",
+        "outputPath": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

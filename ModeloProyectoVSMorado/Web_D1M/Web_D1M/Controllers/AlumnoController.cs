@@ -4,7 +4,7 @@ namespace Web_D1M.Controllers
 {
     public class AlumnoController : Controller
     {
-        //bdcolegioContext context = new bdcolegioContext();
+        //bdcolegioContext context = new bdcolegioContext() de visual azul xd ;
         private readonly bdcolegioContext context;
         public AlumnoController(bdcolegioContext context)
         {
