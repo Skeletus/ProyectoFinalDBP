@@ -1,0 +1,55 @@
+﻿@model Web_D1M.Models.Alumno
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <body>
+    <form asp-controller="Alumno" asp-action="CreateAlumno" method="post">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Id</label>
+            <input asp-for="IdAlumno" class="form-control" id="formGroupExampleInput" placeholder="Id">
+            <span asp-validation-for="IdAlumno" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Apellido Paterno</label>
+            <input asp-for="AluPaterno" class="form-control" id="formGroupExampleInput2" placeholder="Apellido Paterno">
+            <span asp-validation-for="AluPaterno" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Apellido Materno</label>
+            <input asp-for="AluMaterno" class="form-control" id="formGroupExampleInput2" placeholder="Apellido Materno">
+            <span asp-validation-for="AluMaterno" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Nombres</label>
+            <input asp-for="AluNombres" class="form-control" id="formGroupExampleInput2" placeholder="Nombres">
+            <span asp-validation-for="AluNombres" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Sexo</label>
+            <input asp-for="AluSexo" class="form-control" id="formGroupExampleInput2" placeholder="Sexo">
+            <span asp-validation-for="AluSexo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Codigo Modular</label>
+            <input asp-for="AluCodigo" class="form-control" id="formGroupExampleInput2" placeholder="Codigo Modular">
+            <span asp-validation-for="AluCodigo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">IdestadoCivil</label>
+            <input asp-for="IdEstadocivil" class="form-control" id="formGroupExampleInput2" placeholder="IdEstadoCivil">
+            <span asp-validation-for="IdEstadocivil" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input asp-for="AluEmail" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+            <span asp-validation-for="AluEmail" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" value="btn" name="grabar" data-toggle="modal" data-target="#exampleModal">Grabar</button>
+        </div>
+    </form>
+    </body>
+</html>

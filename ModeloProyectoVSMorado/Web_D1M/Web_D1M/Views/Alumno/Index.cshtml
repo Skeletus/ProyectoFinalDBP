@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Web_D1M.Models.Alumno>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <body>
+        <a asp-action="Create">Nuevo Alumno</a>
+        <h1>Listado de alumnos</h1>
+        <table class="table table-bordered" border="2">
+            <tr>
+                <td>CODIGO</td>
+                <td>NOMBRES</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+        </tr>
+           @foreach(var item in Model)
+           {
+                <tr>
+                    <td>@item.AluCodigo</td>
+                    <td>@item.AluNombres</td>
+                    <td><a asp-action="Edit" asp-route-id="@item.IdAlumno">Editar</a></td>
+                    <td><a asp-action="Delete" asp-route-id="@item.IdAlumno">Eliminar</a></td>
+                </tr>
+           }
+        </table>    
+    </body>
+</html>
