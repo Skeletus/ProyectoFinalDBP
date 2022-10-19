@@ -138,3 +138,38 @@ D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M
 D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.pdb
 D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.genruntimeconfig.cache
 D:\CUARTO CICLOO\testDBP\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\ref\Web_D1M.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\appsettings.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.staticwebassets.runtime.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.exe
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.deps.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.runtimeconfig.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Web_D1M.pdb
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Humanizer.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.AssemblyReference.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.AssemblyInfoInputs.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.AssemblyInfo.cs
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.CoreCompileInputs.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.RazorAssemblyInfo.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.RazorAssemblyInfo.cs
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\bundle\Web_D1M.styles.css
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\scopedcss\projectbundle\Web_D1M.bundle.scp.css
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.csproj.CopyComplete
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\refint\Web_D1M.dll
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.pdb
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\Web_D1M.genruntimeconfig.cache
+C:\Users\USUario\Desktop\ProyectoFinalDBP\ModeloProyectoVSMorado\Web_D1M\Web_D1M\obj\Debug\net6.0\ref\Web_D1M.dll
