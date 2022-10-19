@@ -1,0 +1,60 @@
+﻿@model Web_D1M.Models.Alumno
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html>
+<body>
+
+    <form asp-controller="Alumno" asp-action="EditAlumno" method="post">
+
+        <!-- ID CURSO -->
+        <div class="form-group">
+            <label for="formGroupExampleInput">ID CURSO</label>
+            <!--conecta el valor del input-->
+            <input asp-for="IdAlumno" value="@ViewData["id"]" class="form-control" id="formGroupExampleInput" placeholder="Id">
+            <!--enlaza la validacion-->
+            <span asp-validation-for="IdAlumno" class="text-danger"></span>
+        </div>
+
+        <!--NUMERO CURSO-->
+        <div class="form-group">
+            <label for="formGroupExampleInput2">NUMERO CURSO</label>
+            <input asp-for="AluPaterno" value="@ViewData["ape"]" class="form-control" id="formGroupExampleInput2" placeholder="Apellido Paterno">
+            <span asp-validation-for="AluPaterno" class="text-danger"></span>
+
+        </div>
+
+        <!--HORAS CURSO-->
+        <div class="form-group">
+            <label for="formGroupExampleInput2">HORAS CURSO</label>
+            <input asp-for="AluMaterno" value="@ViewData["mat"]"  class="form-control" id="formGroupExampleInput2" placeholder="Apellido Materno">
+            <span asp-validation-for="AluMaterno" class="text-danger"></span>
+
+        </div>
+
+        <!--PROFESOR-->
+        <div class="form-group">
+            <label for="formGroupExampleInput2">PROFESOR DEL CURSO</label>
+            <input asp-for="AluNombres" value="@ViewData["nom"]" class="form-control" id="formGroupExampleInput2" placeholder="Nombres">
+            <span asp-validation-for="AluNombres" class="text-danger"></span>
+        </div>
+
+        <!--NUMERO ESTUDIANTES-->
+        <div class="form-group">
+            <label for="formGroupExampleInput2">NUMERO DE ESTUDIANTES</label>
+            <input asp-for="AluSexo" value="@ViewData["sex"]" class="form-control" id="formGroupExampleInput2" placeholder="Nombres">
+            <span asp-validation-for="AluSexo" class="text-danger"></span>
+        </div>
+
+    
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" value="btn" name="Modificar" data-toggle="modal" data-target="#exampleModal">Modificar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
