@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* lo de abajo es para ver como esta cuadrando todo*/
+    /*border: 1px solid red;*/
 }
 
 body 

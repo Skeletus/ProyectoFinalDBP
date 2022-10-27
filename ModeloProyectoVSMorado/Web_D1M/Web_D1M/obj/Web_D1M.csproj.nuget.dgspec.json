@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {}
+    "C:\\Users\\USUario\\Desktop\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {}
   },
   "projects": {
-    "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {
+    "C:\\Users\\USUario\\Desktop\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
+        "projectUniqueName": "C:\\Users\\USUario\\Desktop\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
         "projectName": "Web_D1M",
-        "projectPath": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
-        "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-        "outputPath": "D:\\CUARTO CICLOO\\testDBP\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\obj\\",
+        "projectPath": "C:\\Users\\USUario\\Desktop\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\Web_D1M.csproj",
+        "packagesPath": "C:\\Users\\USUario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUario\\Desktop\\ProyectoFinalDBP\\ModeloProyectoVSMorado\\Web_D1M\\Web_D1M\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

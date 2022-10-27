@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Web_D1M.Models.Usuario>
+﻿@model Web_D1M.Models.User
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -80,11 +80,13 @@
                         <div class="card card-body">
                             <!--cardbodycardbodycardboy-->
                             <!-- ingreso de datos para inicar sesion-->                                
-                            <form id="submitForm" action="/login" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" novalidate="" _lpchecked="1"><input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">
+                            <form action="/Usuario/LogearUsuario" method="post">
+                                <input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">
                                 <!-- solcitando nombre o email de usuario-->
                                 <div class="form-group required">
                                     <lSabel for="username">Nombre de Usuario / Email</lSabel>
-                                    <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">
+                                    <input type="text" asp-for="NombreUser" class="form-control" placeholder="Username" id="username" />
+                                    <span asp-validation-for="NombreUser" class="text-danger"></span>
                                 </div>     
                                 <!-- solicitando contraseña del usuario -->               
                                 <div class="form-group required">
@@ -92,7 +94,8 @@
                                         <!-- preguntando si olvido su contraseña--> 
                                         <a class="ml-auto border-link small-xl" href="/forget-password">¿Olvidaste tu contraseña?</a>
                                     </label>
-                                    <input type="password" class="form-control" required="" id="password" name="password" value="">
+                                    <input type="password" asp-for="PasswordUser" class="form-control" required="" id="password">
+                                    <span asp-validation-for="PasswordUser" class="text-danger"></span>
                                 </div>
                                 <!-- mostrar opcion "recordarme" en caso de que el usuario quiera evitar el formulario -->
                                 <div class="form-group mt-4 mb-4">
@@ -106,23 +109,21 @@
                                 </div>
                                 <!-- boton de sumitir datos para log in-->
                                 <div class="form-group pt-1">
-                                    <a href="/Calendario/calendarioPage.html">
-                                        <button class="btn btn-primary btn-block" type="button">Iniciar Sesión</button>
+                                    <!--<a href="/Calendario/calendarioPage.html">-->
+                                        <button class="btn btn-primary btn-block" type="submit">
+                                            Iniciar Sesión
+                                        </button>
                                         <!-- si se le pone al type = submit manda un error -->
                                         <!--<button class="btn btn-primary btn-block" id="myButton" type="submit">Iniciar Sesión</button>-->
-                                    </a>
+                                    <!--</a>-->
                                     <!--<button class="btn btn-primary btn-block" id="myButton" type="submit">Iniciar Sesión</button>-->
                                     
                                 </div>
                             </form>
                             <p>
                                 <span class="text-muted">¿Aún no tiene una cuenta?</span>
+                                <!--  <a asp-controller="Usuario" asp-action="ListaUsuarios">Crear una cuenta</a> --> 
                                 <a asp-controller="Usuario" asp-action="RegistrarUserPage">Crear una cuenta</a>
-                            </p>
-                            <!--<p class="small-xl pt-3 text-center">
-                                <span class="text-muted">¿Aún no tiene una cuenta?</span>
-                                <a href="index.html">Crear una cuenta</a>
-                            </p>-->
                         </div>
                     </div>
                 </div>
