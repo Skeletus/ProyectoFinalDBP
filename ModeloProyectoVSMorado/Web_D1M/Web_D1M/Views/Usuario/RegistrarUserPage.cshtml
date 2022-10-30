@@ -1,4 +1,5 @@
-﻿@*
+﻿@model Web_D1M.Models.User
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 <!DOCTYPE html>
@@ -60,46 +61,52 @@
                         <div class="card card-body">
                             <!--cardbodycardbodycardboy-->
                             <!-- ingreso de datos para inicar sesion-->                                
-                            <form id="submitForm" action="/login" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" novalidate="" _lpchecked="1"><input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">
+                            <form asp-controller="Usuario" asp-action="RegistrarUser" method="post" data-parsley-validate="" >
+                                <input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">
                                 <!-- solcitando nombre de la persona usuario-->
                                 <div class="form-group required">
-                                    <lSabel for="username">Nombre</lSabel>
-                                    <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">
+                                    <lSabel for="formGroupExampleInput1">Nombre Real</lSabel>
+                                    <input asp-for="Nombre" class="form-control" id="formGroupExampleInput" placeholder="Nombre Real">
+                                    <span asp-validation-for="Nombre" class="text-danger"></span>
                                 </div>    
                                 <!-- solcitando apellido de usuario-->
                                 <div class="form-group required">
-                                    <lSabel for="username">Apellido</lSabel>
-                                    <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">
+                                    <lSabel for="formGroupExampleInput1">Apellido</lSabel>
+                                    <input asp-for="Apellido" class="form-control" id="formGroupExampleInput" placeholder="Apellido">
+                                    <span asp-validation-for="Apellido" class="text-danger"></span>
                                 </div> 
                                 <!-- solcitando nombre de usuario-->
                                 <div class="form-group required">
-                                    <lSabel for="username">Nombre de Usuario</lSabel>
-                                    <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">
+                                    <lSabel for="formGroupExampleInput1">Nombre de Usuario</lSabel>
+                                    <input asp-for="NombreUser" class="form-control" id="formGroupExampleInput" placeholder="Nombre de Usuario">
+                                    <span asp-validation-for="NombreUser" class="text-danger"></span>
                                 </div>
                                 <!-- solcitando email de usuario-->
                                 <div class="form-group required">
-                                    <lSabel for="username">Correo electrónico</lSabel>
-                                    <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">
+                                    <lSabel for="formGroupExampleInput1">Email</lSabel>
+                                    <input asp-for="Email" class="form-control" id="formGroupExampleInput" placeholder="Email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
                                 </div>  
                                 <!-- solicitando contraseña del usuario -->               
                                 <div class="form-group required">
-                                    <label class="d-flex flex-row align-items-center" for="password">Contraseña
-                                    </label>
-                                    <input type="password" class="form-control" required="" id="password" name="password" value="">
+                                    <lSabel for="formGroupExampleInput1">Contraseña</lSabel>
+                                    <input asp-for="PasswordUser" class="form-control" id="formGroupExampleInput" placeholder="Contraseña">
+                                    <span asp-validation-for="PasswordUser" class="text-danger"></span>
                                 </div>
-                                <!-- volviendo a solicitar contraseña del usuario -->               
+                                <!-- volviendo a solicitar contraseña del usuario              
                                 <div class="form-group required">
                                     <label class="d-flex flex-row align-items-center" for="password">Contraseña para confirmar
                                     </label>
                                     <input type="password" class="form-control" required="" id="password" name="password" value="">
                                 </div>
+                                --> 
                                 <!-- boton de sumitir datos para log in-->
                                 <div class="form-group pt-1">
-                                    <a href="/Calendario/calendarioPage.html">
-                                        <button class="btn btn-primary btn-block" type="button">Registrar Usuario</button>
+                                    <a href="/Calendario/calendarioPage.html"></a>
+                                        <button type="submit" class="btn btn-primary btn-block" value="btn" name="grabar" data-toggle="modal" data-target="#exampleModal">Registrar </button>
+                                        <!-- <button class="btn btn-primary btn-block" type="button">Registrar Usuario</button> -->
                                         <!-- si se le pone al type = submit manda un error -->
                                         <!--<button class="btn btn-primary btn-block" id="myButton" type="submit">Iniciar Sesión</button>-->
-                                    </a>
                                     <!--<button class="btn btn-primary btn-block" id="myButton" type="submit">Iniciar Sesión</button>-->
                                     
                                 </div>

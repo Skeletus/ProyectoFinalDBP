@@ -21,12 +21,12 @@ namespace Web_D1M.Controllers
         }
         public IActionResult CreateAlumno(Alumno objAlu)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 context.Alumnos.Add(objAlu);
                 context.SaveChanges();
 
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
             else
             {
@@ -42,7 +42,7 @@ namespace Web_D1M.Controllers
             /*LINQ * lambda*/
             var objAlu = (from Talu in context.Alumnos
                           where Talu.IdAlumno == Codigo
-                          select Talu).Single(); 
+                          select Talu).Single();
             context.Alumnos.Remove(objAlu);
             context.SaveChanges();
 
@@ -91,4 +91,5 @@ namespace Web_D1M.Controllers
                 return View("Edit");
             }
         }
+    }
 }
